@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-const licenses = ['No license', 'MIT', 'BSD', 'Apache', 'GPL'];
+const licenses = ['Apache 2.0 License', 'MIT', 'GNU GPL v2', 'AGPL v3', 'Mozilla Public License 2.0', ''];
 
 const questions = [
     {
